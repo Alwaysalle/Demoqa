@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 
 import helper.AbstractWebTest;
 
-public class Products extends AbstractWebTest {
+public class ProductsTest extends AbstractWebTest {
 
 	@Test
 	public void userCase01_ProductPageByBuyNowButton() {
