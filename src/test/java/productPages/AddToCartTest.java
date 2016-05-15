@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 
 import helper.AbstractWebTest;
 
-public class AddToCart extends AbstractWebTest {
+public class AddToCartTest extends AbstractWebTest {
 	@Test
 	public void userCase11_ProductPageAddProductToCart() throws InterruptedException {
 		driver.findElement(By.className("buynow")).click();

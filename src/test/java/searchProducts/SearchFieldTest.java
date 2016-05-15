@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 
 import helper.AbstractWebTest;
 
-public class SearchField extends AbstractWebTest {
+public class SearchFieldTest extends AbstractWebTest {
 
 	@Test
 	public void testSearchForProductThatExists() {

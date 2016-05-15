@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import helper.AbstractWebTest;
 
-public class AddToCartWindow extends AbstractWebTest {
+public class AddToCartWindowTest extends AbstractWebTest {
 
 	@Test
 	public void addCorrectProductToCart() throws InterruptedException {
@@ -19,5 +19,9 @@ public class AddToCartWindow extends AbstractWebTest {
 		Thread.sleep(3000);
 		String notificationText = driver.findElement(By.xpath("//*[@id='fancy_notification_content']/span")).getText();
 		assertTrue("The correct product was not shown in pop-up", notificationText.contains(productPageName));
+	}
+	@Test
+	public void test02(){
+		
 	}
 }

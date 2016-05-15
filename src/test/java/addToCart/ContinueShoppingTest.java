@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import helper.AbstractWebTest;
 
-public class ContinueShopping extends AbstractWebTest {
+public class ContinueShoppingTest extends AbstractWebTest {
 	@Test
 	public void continueShoppingButton() throws InterruptedException {
 		driver.findElement(By.className("buynow")).click();

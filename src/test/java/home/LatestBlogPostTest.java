@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 
 import helper.AbstractWebTest;
 
-public class LatestBlogPost extends AbstractWebTest {
+public class LatestBlogPostTest extends AbstractWebTest {
 
 	@Test
 	public void userCase06_LatestBlogPostContainsProducts() {

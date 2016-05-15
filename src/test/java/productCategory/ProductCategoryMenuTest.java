@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import helper.AbstractWebTest;
 
-public class ProductCategoryMenu extends AbstractWebTest {
+public class ProductCategoryMenuTest extends AbstractWebTest {
 
 	@Test
 	public void productCategorySubMeny() throws InterruptedException {

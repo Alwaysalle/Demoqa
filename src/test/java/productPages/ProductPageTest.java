@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 
 import helper.AbstractWebTest;
 
-public class ProductPage extends AbstractWebTest {
+public class ProductPageTest extends AbstractWebTest {
 
 	@Test
 	public void userCase10_ProductPageContainsInformation() {

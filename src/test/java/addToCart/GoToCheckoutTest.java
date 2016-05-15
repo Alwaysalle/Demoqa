@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import helper.AbstractWebTest;
 
-public class GoToCheckout extends AbstractWebTest {
+public class GoToCheckoutTest extends AbstractWebTest {
 
 	@Test
 	public void goToCheckoutButton() throws InterruptedException {
